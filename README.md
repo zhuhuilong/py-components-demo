@@ -3,7 +3,7 @@
 ## 容器镜像制作
 
 ### 新建模板项目
-    * 从 <https://github.com/xuelang-group/py-components-demo> 克隆代码
+    * 从 <https://itools.weichai.com/git/weitools/digitalization/sourcecode/suanpan-sdk-docker/py-components-demo.git> 克隆代码
     * 将组件代码放到 components 文件夹下
     * 将所需依赖写入 requirements.txt 中
 
@@ -52,7 +52,7 @@
 
 3. 键入启动命令
     ```bash
-    python run.py components.test.app
+    python run.py components.hello_world.app
     ```
 
 4. 编辑组件输入输出和参数
