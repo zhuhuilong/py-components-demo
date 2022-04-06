@@ -1,0 +1,9 @@
+venv/
+.vscode/
+.idea/
+demo/
+docker/
+.gitignore
+build.sh
+Dockerfile
+README.md
