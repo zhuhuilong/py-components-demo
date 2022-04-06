@@ -15,22 +15,22 @@
 
 1. 登录镜像仓库
     
-    首先 login 镜像仓库，以 `registry.xuelangyun.com` 为例，执行命令
+    首先 login 镜像仓库，以 `itools-harbor.weichai.com` 为例，执行命令
 
     ```bash
-    docker login registry.xuelangyun.com -u [username] -p [password]
+    docker login itools-harbor.weichai.com -u [username] -p [password]
     ```
 
 2. 构建镜像命令
 
     ```bash
-    docker build -f docker/Dockerfile -t registry.xuelangyun.com/shuzhi-amd64/component-demo:0.0.1 .
+    docker build -f docker/Dockerfile -t itools-harbor.weichai.com/common/component-demo:0.0.1 .
     ```
 
 3. 上传镜像命令
 
     ```bash
-    docker push registry.xuelangyun.com/shuzhi-amd64/component-demo:0.0.1
+    docker push itools-harbor.weichai.com/common/component-demo:0.0.1
     ```
 
 4. 命令脚本
